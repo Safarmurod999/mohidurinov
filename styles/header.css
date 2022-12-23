@@ -45,10 +45,11 @@ nav ul li a {
   margin: 0 7px;
 }
 #home {
-  padding: 104px 15px 142px;
+  text-align: center;
   background: var(--home-color);
 }
 #home .container {
+  padding: 104px 15px 142px;
   display: grid;
   align-items: center;
   grid-template-columns: 3fr 2fr;
@@ -60,6 +61,7 @@ nav ul li a {
   align-items: start;
 }
 .home-left h1 {
+
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
