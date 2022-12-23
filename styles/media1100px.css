@@ -1,0 +1,211 @@
+@media (max-width: 1100px) {
+  :root{
+    font-size: 14px;
+  }
+  nav{
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+  nav.container{
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+  .nav-menus {
+    /* display: none; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 999;
+  }
+  .nav-list {
+    text-align: center;
+    flex-direction: column;
+  }
+  .nav-list a {
+    display: inline-block;
+    font-size: 1.875rem;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .toggle-btn {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+  .toggle-btn img {
+    width: 100%;
+  }
+  .close-btn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  #home {
+    padding: 104px 115px 204px;
+
+  }
+  #home .container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+  }
+  #home .home-left {
+    padding-right: 0;
+  }
+  .home-left .search-box input{
+    width: 370px;
+  }
+  #brands .container {
+    padding: 0 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #brands .brand-card {
+    padding-right: 80px;
+  }
+  #brands .brand-card .img-box {
+    text-align: center;
+  }
+  .product-row {
+    padding: 0 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #about .container .about-row {
+    padding: 0 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #contact .container {
+    padding: 0 115px;
+  }
+  /* #about .container .about-row .about-card{
+        padding-right: 70px;
+      } */
+}
+@media (max-width: 1050px) {
+  :root{
+    font-size: 13px;
+  }
+  #home .container{
+    grid-template-columns: 50% 50%;
+  }
+  .home-left h1 {
+    font-size: 3rem;
+  }
+  .home-left p {
+    font-size: 0.9rem;
+  }
+  .home-left .search-box input{
+    width: 320px;
+  }
+  .email-box {
+    width: 90%;
+  }
+}
+@media (max-width: 850px) {
+  :root{
+    font-size: 12px;
+  }
+  .home-left h1 {
+    font-size: 2.75rem;
+  }
+  .home-left p {
+    font-size: 0.875rem;
+  }
+  .home-left .search-box input{
+    width: 280px;
+  }
+  #contact img {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  #home .container {
+    padding: 70px 35px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #home {
+    height: 900px;
+    text-align: center;
+    align-items: start;
+  }
+  #home .search-box {
+    width: 100%;
+  }
+  #home .home-right img {
+    width: 60%;
+  }
+  #home input {
+    width: 100%;
+  }
+  #brands .container {
+    padding: 0 35px;
+  }
+  #brands .brand-card {
+    padding-right: 20px;
+  }
+  .product-row {
+    padding: 0 35px;
+  }
+  #about .container .about-row {
+    padding: 0 35px;
+  }
+  #contact .container {
+    padding: 0 35px;
+  }
+  #contact .container .card {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #contact .container .card .email-box {
+    width: 100%;
+  }
+  #contact .container .card input {
+    margin-bottom: 40px;
+  }
+
+  #products .product-card {
+    grid-template-rows: 70% 30%;
+  }
+  #contact .container .card .right {
+    display: none;
+  }
+}
+@media (max-width: 630px) {
+    #brands .brand-card{
+        padding-left: 20px;
+    }
+    #brands .brand-card h3{
+        font-size: 30px;
+    }
+  .product-row {
+    padding: 0 35px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  #about .container .about-row .about-card {
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #about .container .about-row .about-card .img-box {
+    text-align: center;
+  }
+}

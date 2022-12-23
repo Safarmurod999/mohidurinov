@@ -1,0 +1,148 @@
+header {
+  padding: 22px 15px;
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8888;
+  width: 100%;
+}
+nav {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.navbar-shrink {
+  background: var(--home-color);
+  padding: 15px 15px;
+  box-shadow: var(--shrink-color);
+}
+nav .logo img {
+  width: 78px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a {
+  margin: 0 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: var(--paragraph-color);
+}
+.nav-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.nav-search img {
+  margin: 0 7px;
+}
+#home {
+  padding: 104px 15px 142px;
+  background: var(--home-color);
+}
+#home .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 2fr;
+}
+.home-left {
+  padding-right: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.home-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 125.5%;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.home-left p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 47px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 125.5%;
+  color: var(--paragraph-color);
+}
+.home-left .search-box {
+  position: relative;
+}
+.home-left .search-box img,
+.home-left .search-box button {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+}
+.home-left .search-box img {
+  top: 35%;
+  left: 21px;
+}
+.home-left .search-box input {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  width: 443px;
+  padding: 19px 56px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.home-left .search-box button {
+  top: 10px;
+  right: 10px;
+  font-style: normal;
+  background: var(--btn-color);
+  border-radius: 9px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1.125;
+  line-height: 125.5%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.home-right img {
+  width: 100%;
+}
+.toggle-btn {
+  display: none;
+}
+#dark-light{
+  background-color: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+#dark-light img{
+  margin: 0;
+  width: 100%;
+}
+
+.dark * {
+  color: white !important;
+}
+.dark {
+  background: #000;
+}
+.dark #brands {
+  background: #000;
+}
+.dark #brands .brand-card,.dark #about .about-card,.dark #contact .container .card{
+  background-color: #000;
+  border: 1px solid rgb(197, 197, 197);
+}

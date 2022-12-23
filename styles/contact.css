@@ -1,0 +1,64 @@
+#contact {
+  padding: 90px 0;
+  font-family: "Inter", sans-serif;
+}
+#contact .container .card {
+  padding: 33px 110px 43px 97px;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: 70% 30%;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+
+#contact h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 44px;
+  margin-bottom: 12px;
+  color: var(--heading-color);
+}
+#contact img{
+  width:100%;
+}
+#contact p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  margin-bottom: 15px;
+  color: var(--paragraph-color);
+}
+.email-box {
+  width: 65%;
+  position: relative;
+}
+#contact input {
+  width: 100%;
+  border: none;
+  padding: 19px 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  border-radius: 15px;
+}
+#contact button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-style: normal;
+  background: var(--btn-color);
+  border-radius: 9px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 125.5%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}

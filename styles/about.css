@@ -1,0 +1,46 @@
+#about {
+  position: relative;
+  padding: 135px 0;
+}
+.about-heading p {
+  margin-bottom: 10px;
+}
+.about-heading h4 {
+  margin-bottom: 55px;
+}
+.about-row {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+.about-row .about-card {
+  padding: 30px 34px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 40% 60%;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.about-row .about-card h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 29px;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+.about-row .about-card p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  margin-bottom: 13px;
+  color: var(--paragraph-color);
+}
+#about-dots {
+  position: absolute;
+  bottom: 43px;
+  left: calc(50% - 67px);
+}
