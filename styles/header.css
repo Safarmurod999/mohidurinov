@@ -45,7 +45,6 @@ nav ul li a {
   margin: 0 7px;
 }
 #home {
-  text-align: center;
   background: var(--home-color);
 }
 #home .container {
